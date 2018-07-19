@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Elsa";
+  src: url('./assets/fonts/elsa/elsa.eot');
+  src: url('./assets/fonts/elsa/elsa.woff') format('woff'),
+       url('./assets/fonts/elsa/elsa.ttf') format('truetype'),
+       url('./assets/fonts/elsa/elsa.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.parallax-about {
+  background-image: url(./assets/img/about/bg.jpg);
+}
+
+.parallax-activity {
+  background-image: url(./assets/img/activity/bg.jpg);
+}
+
+.parallax-production {
+  background-image: url(./assets/img/production/bg.jpg);
+}
+
+.parallax-portfolio {
+  background-image: url(./assets/img/portfolio/bg.jpg);
+}
+
+.parallax-blog {
+  background-image: url(./assets/img/blog/bg.jpg);
+}
+
+.parallax-contact {
+  background-image: url(./assets/img/contact/bg.jpg);
+}

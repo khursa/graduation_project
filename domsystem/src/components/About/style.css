@@ -1,0 +1,22 @@
+.about {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1366px;
+    background-color: #f4f5f9;
+    height: 100vh;
+}
+
+.about_wrap {
+    position: relative;
+}
+
+.about_title {
+    padding: 0;
+    margin: 0;
+}
+
+.about_info {
+    margin: 0;
+    padding: 0;
+}

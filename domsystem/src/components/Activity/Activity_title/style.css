@@ -1,0 +1,43 @@
+.about__history {
+    border-top: 2px solid #e6e7eb;
+    padding: 0 5%;
+}
+
+.history__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+    margin-top: 140px;
+    margin-bottom: 328px;
+}
+
+.history__img {
+    width: 506px;
+    height: 407px;
+}
+
+.history__info {
+    padding-left: 75px;
+}
+
+.history__title {
+    color: #fff;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    padding-left: 29px;
+    text-align: center;
+	text-shadow: 2px 4px 13px rgba(0,0,0,0.75);
+}
+
+
+.history__text {
+    color: #fff;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 29px;
+}
