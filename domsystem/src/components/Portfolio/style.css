@@ -1,4 +1,15 @@
+@font-face {
+  font-family: "Elsa";
+  src: url('../../assets/fonts/elsa/elsa.eot');
+  src: url('../../assets/fonts/elsa/elsa.woff') format('woff'),
+       url('../../assets/fonts/elsa/elsa.ttf') format('truetype'),
+       url('../../assets/fonts/elsa/elsa.svg') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
 .portfolio {
+    position: relative;
     text-align: center;
 }
 
@@ -7,7 +18,7 @@
     clear: both;
     overflow: hidden;
     position: relative;
-    height: 250px;
+    height: 400px;
   }
   
   #projects .project a {
@@ -18,9 +29,11 @@
     width: 100%;
     z-index: 20
   }
+
   #projects .project a:active{
     background: rgba(159, 27, 52, .3);
   }
+  
    #projects .project .infos {
     min-height: 100px;
     position: absolute;
@@ -29,37 +42,48 @@
     transform: translateY(-50%);
     width: 50%;
     z-index: 10;
+    background: rgba(0, 0, 0, .5);
+    box-shadow: 15px 5px 35px 5px rgba(0, 0, 0, .25),
+               -15px -5px 35px 5px rgba(0, 0, 0, .25);
+    margin: 0;
+    padding: 0;
   }
   
   #projects .project .infos .text {
     margin: 0 auto;
     max-width: 420px;
     width: 75%;
-    height: 250px;
   }
   
   #projects .project .infos .text h3 {
     color: #fff;
     display: block;
-    font-family:  Arial, sans-serif;
-    font-size: 12px;
-    letter-spacing: 4px;
+    font-family: "Elsa", sans-serif;
+    font-size: 24px;
+    width: 100%;
+    letter-spacing: 2px;
     line-height: 14px;
     margin-bottom: 15px;
-    text-transform: uppercase
+    padding-top: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
   }
   
   #projects .project .infos .text p {
     color: #fff;
-    font-family:  Arial, sans-serif;
-    font-size: 25px;
-    line-height: 35px
+    font-family: "Elsa", sans-serif;
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: 400;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    font-weight: 200;   
   }
   
    #projects .project .image {
     float: right;
-     transform: translateZ(0);
-     transition: all .75s cubic-bezier(0.77, 0, 0.175, 1);
+    transform: translateX(-100%);
+    transition: all .75s cubic-bezier(0.77, 0, 0.175, 1);
     transition-delay: .15s;
     width: 50%
   }
@@ -75,10 +99,10 @@
     content: '';
     display: block;
     height: 10px;
-    left: 50%;
     position: absolute;
     top: 50%;
-    transform: translateX(-50%) translateZ(0);
+    left: -5%;
+    transform: translateX(0%) translateZ(0);
     transition: all .75s cubic-bezier(0.77, 0, 0.175, 1);
     transition-delay: .15s;
     width: 10px;
@@ -88,9 +112,10 @@
   
   #projects .project:hover:before {
     left: 100%;
-    transform: translateX(0%) translateZ(0);
+    transform: translateX(-50%) translateZ(0);
     width:60px;
     height:2px;
+    left: 50%;
     opacity:0
   }
   
@@ -103,7 +128,7 @@
     opacity: 0;
     position: absolute;
     top: 0;
-    transform: translateZ(0);
+    transform: translateZ();
     transition: opacity .75s cubic-bezier(0.77, 0, 0.175, 1);
     transition-delay: .15s;
     width: 100%
@@ -118,7 +143,7 @@
   }
   
   #projects .project:hover .image {
-    transform: translateX(-100%)
+    transform: translateX(0%)
   }
 
   .portfolio_slide {
