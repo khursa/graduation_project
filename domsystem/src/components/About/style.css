@@ -5,6 +5,7 @@
     max-width: 1366px;
     background-color: #f4f5f9;
     height: 100vh;
+    scroll-behavior: smooth;
 }
 
 .about_wrap {

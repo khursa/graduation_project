@@ -11,6 +11,9 @@ font-style: normal;
 .portfolio {
     position: relative;
     text-align: center;
+    scroll-behavior: smooth;
+    z-index: 1;
+    background: url('../../assets/img/portfolio/bg.jpg');
 }
 
 

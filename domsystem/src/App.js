@@ -6,6 +6,7 @@ import Production from './components/Production';
 import Portfolio from './components/Portfolio';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import ReallySmoothScroll from 'really-smooth-scroll';
 
 ReallySmoothScroll.shim();
@@ -21,6 +22,7 @@ class App extends Component {
         <Portfolio />
         <Blog />
         <Contact />
+        <Footer />
       </div>
     );
   }

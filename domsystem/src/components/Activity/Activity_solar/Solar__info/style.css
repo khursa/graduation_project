@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Elsa";
+    src: url('../../../../assets/fonts/elsa/elsa.eot');
+    src: url('../../../../assets/fonts/elsa/elsa.woff') format('woff'),
+         url('../../../../assets/fonts/elsa/elsa.ttf') format('truetype'),
+         url('../../../../assets/fonts/elsa/elsa.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+  
+  .solar__info {
+    position: relative;
+    text-align: right;
+    padding: 0 5%;
+}
+
+.solar__title {
+    margin-top: 10px;
+    color: #f4f5f9;
+    font-family: "Elsa", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    border-left: 6px solid #fff;
+    padding-left: 20px;
+}
+
+.solar__subtitle {
+    color: #ccccccc4;
+    font-family: "Elsa", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    text-transform: uppercase;
+}
+
+.solar__text--1, 
+.solar__text--2, 
+.solar__text--3 {
+    max-width: 560px;
+    color: #999999;
+    font-family: "Elsa", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.solar__text--3 {
+    padding-bottom: 140px;
+}

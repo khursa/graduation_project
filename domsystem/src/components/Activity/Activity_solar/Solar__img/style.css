@@ -1,0 +1,6 @@
+.solar_img {
+    width: 50%;
+    background: url(solar.jpg) 70% 0% no-repeat;
+    background-size: cover;
+    height: 550px;
+}

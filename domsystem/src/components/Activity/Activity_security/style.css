@@ -1,0 +1,6 @@
+.electro {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(32, 32, 32, .75);
+    /* background-color: rgba(114, 134, 140, 0.75); */
+}

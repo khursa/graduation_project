@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
+import About_info from './About_info';
 import '../../parallax.js';
 import '../../index.css';
 import './style.css';
-import { Route } from 'react-router-dom';
 
 
 class About extends Component {
@@ -12,8 +12,7 @@ class About extends Component {
         id="2"
         className="about parallax parallax-about section"
         >
-          <Route path="/#2" component={() => 
-            <div className="about_wrap">
+            {/* <div className="about_wrap">
               <h1 className="about_title">
                 ДОМАШНІ СИСТЕМИ
               </h1>
@@ -25,10 +24,10 @@ class About extends Component {
                 Додатковi послуги та сервiси, гарантійне обслуговування
                 Виготовлення власної продукції
                 Вигідні та зручні для Вас умови cпiвпpaцi
-                20 рiчний досвід успішної роботи та безлiч кейсiв!
+                20 рiчний досвід успішної роботи та безлiч кейсiв!!!
               </p>
-            </div>} 
-           />
+            </div> */}
+            <About_info />
       </section>
     );
   }

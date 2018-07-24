@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Elsa";
+    src: url('../../../assets/fonts/elsa/elsa.eot');
+    src: url('../../../assets/fonts/elsa/elsa.woff') format('woff'),
+         url('../../../assets/fonts/elsa/elsa.ttf') format('truetype'),
+         url('../../../assets/fonts/elsa/elsa.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+.footer_copyright {
+  position: relative;
+  top: 50px;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #929292;
+  line-height: 52px;
+  letter-spacing: 0.75;
+}

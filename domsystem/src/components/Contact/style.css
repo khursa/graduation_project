@@ -9,7 +9,12 @@
   }
 
 .contact {
+	position: relative;
+	margin-bottom: 250px;
+	padding-top: 120px;
+	z-index: 10;
     text-align: center;
+    scroll-behavior: smooth;
 }
 
 .contactblock {
@@ -213,3 +218,4 @@
     /* background: #fff; */
     border-radius: 4px;
 }
+

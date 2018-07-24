@@ -15,6 +15,7 @@
 		overflow-y: hidden;
 		margin: 0 auto;
 		z-index: 100;
+		scroll-behavior: smooth;
 }
 
 .slideshow {
@@ -22,6 +23,7 @@
 		width: 100vw;
 		height: 100vh;
 		overflow: hidden;
+		scroll-behavior: smooth;
   }
   
   .slideshow-image {
@@ -36,6 +38,7 @@
 		animation-duration: 72s;
 		opacity: 1;
 		transform: scale(1.4);
+		scroll-behavior: smooth;
 	}
 	
   .slideshow-image:nth-child(1) {

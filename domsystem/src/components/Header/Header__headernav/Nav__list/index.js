@@ -12,7 +12,7 @@ class Nav__list extends Component {
       <nav className="headernav__list headermenu">
         <Nav__item 
           link_1="ГОЛОВНА"
-          link_2="ПРО_НАС"
+          link_2="ПРО НАС"
           link_3="ДІЯЛЬНІСТЬ"
           link_4="ВИРОБНИЦТВО"
           link_5="ПОРТФОЛІО"
@@ -37,7 +37,7 @@ const Nav__item = (props) => {
         </li>        
         <li className="headermenu__item">
           <a
-            className="headermenu__link headerlink-about"
+            className="headermenu__link headerlink-about nowrap"
             href={ '#2' }
           >
            { props.link_2 }

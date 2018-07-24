@@ -8,8 +8,8 @@
 
     for (i in sections) {
       if (sections[i] <= window.pageYOffset +100) {
-        document.querySelector('.active').classList.remove('active');
-        document.querySelector('a[href="#' + i + '"]').classList.add('active');
+        document.querySelector('.active_link').classList.remove('active_link');
+        document.querySelector('a[href="#' + i + '"]').classList.add('active_link');
       }
     }
   }

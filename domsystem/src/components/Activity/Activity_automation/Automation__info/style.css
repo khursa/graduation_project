@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Elsa";
+    src: url('../../../../assets/fonts/elsa/elsa.eot');
+    src: url('../../../../assets/fonts/elsa/elsa.woff') format('woff'),
+         url('../../../../assets/fonts/elsa/elsa.ttf') format('truetype'),
+         url('../../../../assets/fonts/elsa/elsa.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+  
+  .automation__info {
+    position: relative;
+    text-align: right;
+    padding: 0 5%;
+}
+
+.automation__title {
+    margin-top: 10px;
+    color: #f4f5f9;
+    font-family: "Elsa", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    /* border-right: 6px solid #e74c3c; */
+    padding-right: 0;
+}
+
+.automation__subtitle {
+    color: #ccccccc4;
+    font-family: "Elsa", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    text-transform: uppercase;
+}
+
+.automation__text--1, 
+.automation__text--2, 
+.automation__text--3 {
+    max-width: 560px;
+    color: #999999;
+    font-family: "Elsa", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.automation__text--3 {
+    padding-bottom: 140px;
+}

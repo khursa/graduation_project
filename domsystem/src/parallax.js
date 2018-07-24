@@ -1,5 +1,5 @@
-var bodyRect = document.body.getBoundingClientRect();
-var arrElements = document.querySelectorAll('.parallax');
+let bodyRect = document.body.getBoundingClientRect();
+let arrElements = document.querySelectorAll('.parallax');
 
 window.onscroll = function() {
   arrElements.forEach(function(element) {

@@ -5,20 +5,20 @@ import './style.css'
 class Contact extends Component {
   render() {
     return (
-      <section className="contact parallax parallax-contact section" id='7'>
-         <section class="main-section container contactblock" id="main">
-        <div class="contact__blocks row">
+      <section className="contact  parallax-contact section" id='7'>
+         <section className="main-section container contactblock" id="main">
+        <div className="contact__blocks row">
  
-        <div class="contact__blocks--form">
+        <div className="contact__blocks--form">
          <form
           id="user_message"
-          class="form"
+          className="form"
           name="user_message"
           action="#"
           method="get"
           autocomplete="on"
             >
-          <fieldset class="form__fieldset">
+          <fieldset className="form__fieldset">
              <input
               required
               type="text"
@@ -51,11 +51,8 @@ class Contact extends Component {
          </form>
         </div>
 
-        <div class="contact__blocks--address">
-          <address class="address">
-            {/* <p id="form-title">
-              ЗВОРОТНІЙ ЗВ’ЯЗОК
-            </p> */}
+        <div className="contact__blocks--address">
+          <address className="address">
             <p id="form-info">
             36008, м.Полтава, вул.Автобазівська, 2/9 корпус 16
             </p>

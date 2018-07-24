@@ -7,11 +7,13 @@ class Electro__info extends Component {
       <div className="electro__info">
         <Electro__title electro__title="ЕЛЕКТРОМОНТАЖ"/>
         <Electro__subtitle__web  subtitle__web ="Аудит"/>
-        <Electro__text1 electro__text__1=""/>
+        <Electro__text1 electro__text__1="Текст про аудит електричних мереж. Текст про проектування електричних мереж."/>
         <Electro__subtitle__print  subtitle__print ="Модернізація"/>
-        <Electro__text2 electro__text__2=""/>
+        <Electro__text2 electro__text__2="Текст про модернізацію електричних мереж. 
+        Текст про проектування електричних мереж. Текст про проектування електричних мереж."/>
         <Electro__subtitle__photo  subtitle__photo ="Проектування"/>
-        <Electro__text3 electro__text__3=""/>
+        <Electro__text3 electro__text__3="Текст про проектування електричних мереж. 
+        Текст про проектування електричних мереж. Текст про проектування електричних мереж."/>
       </div>
     );
   }

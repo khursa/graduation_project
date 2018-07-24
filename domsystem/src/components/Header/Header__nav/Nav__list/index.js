@@ -10,7 +10,7 @@ class Nav__list extends Component {
       <nav className="nav__list menu">
         <Nav__item 
           link_1="ГОЛОВНА"
-          link_2="ПРО_НАС"
+          link_2="ПРО НАС"
           link_3="ДІЯЛЬНІСТЬ"
           link_4="ВИРОБНИЦТВО"
           link_5="ПОРТФОЛІО"
@@ -33,7 +33,7 @@ const Nav__item = (props) => {
         </li> 
         <li className="menu__item">
           <a 
-            className="menu__link link-home active"
+            className="menu__link link-home active_link"
             href={ '#1' }
           >
            { props.link_1 }
@@ -41,7 +41,7 @@ const Nav__item = (props) => {
         </li>        
         <li className="menu__item">
           <a 
-            className="menu__link link-about active"
+            className="menu__link link-about"
             href={ '#2' }
           >
            { props.link_2 }
