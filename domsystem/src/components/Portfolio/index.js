@@ -109,6 +109,11 @@ class Portfolio extends Component {
             <div class="image">
               <img className="portfolio_slide" src={p6} />
             </div>
+            <span className="blog_anchor" id="blog_article_1"></span>
+            <span className="blog_anchor" id="blog_article_2"></span>
+            <span className="blog_anchor" id="blog_article_3"></span>
+            <span className="blog_anchor" id="blog_article_4"></span>
+            <span className="blog_anchor" id="blog_article_5"></span>
           </div>
         </section>
       </section>

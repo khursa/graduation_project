@@ -7,7 +7,7 @@ import './style.css'
 class Footer extends Component {
   render() {
     return (
-      <section className="main_footer parallax parallax-contact section">
+      <section className="main_footer parallax parallax-contact section container">
         <Footer_socialicon />
         <Footer_copyright />
       </section>

@@ -3,6 +3,7 @@
     text-align: center;
     height: 100vh;
     scroll-behavior: smooth;
+    z-index: 1;
 }
 
 .top-banner {

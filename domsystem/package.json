@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@google/maps": "^0.5.5",
+    "google-map-react": "^1.0.5",
     "google-maps": "^3.3.0",
+    "google-maps-react": "^2.0.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-router": "^4.3.1",

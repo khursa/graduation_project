@@ -35,6 +35,7 @@
   font-size: 22px;
   font-weight: 700;
   transform: translateX(-100px);
+  z-index: 0;
 }
 
 #td-n2 {
@@ -110,7 +111,7 @@ section {
 
 [class*=__container] {
   position: relative;
-  z-index: 1;
+  z-index: 0;
 }
 
 @media (max-width: 54em) {
@@ -161,7 +162,7 @@ section {
 }
 .tabs__item {
   cursor: pointer;
-  z-index: 666;
+  z-index: 0;
 }
 
 .tabs__item:not(.active) {

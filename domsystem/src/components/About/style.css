@@ -6,6 +6,7 @@
     background-color: #f4f5f9;
     height: 100vh;
     scroll-behavior: smooth;
+    z-index: 1;
 }
 
 .about_wrap {

@@ -4,4 +4,5 @@
     max-width: 1366px;
     margin: 0 auto;
     scroll-behavior: smooth;
+    z-index: 1;
 }

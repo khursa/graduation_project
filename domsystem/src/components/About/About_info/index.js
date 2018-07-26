@@ -3,25 +3,26 @@ import '../../../menu.js';
 import './style.css'
 
 class About_info extends Component {
+
   render() {
     return (
       <div 
-      className="about__history section" 
+      className="about__about section" 
       id="2"
       >
-        <div className="history__wrap">
-          <div className="history__info">
-            <History__title history__title='ТОВ "ДОМАШНІ СИСТЕМИ"'/>
-            <History__text  
-            history__text__1='Робота iз кабельними системами будь-якої складностi, оснащення серверних, побудова локальної мережі, доступ до мережі Інтернет
-            Широкий спектр виконувальних робiт: системи Wireless, ВОЛ3, СКУД, IP-вiдеоспостереження, супутникове обладнання, автоматизація, 
-            сонячне електроживлення, електромонтаж, система "розумний будинок"
-            Власний штат досвідченних iнженерiв, висококвалiфiкованих монтажникiв та колл-центр, який працює для Вас без вихідних'
-            history__text__2="Використання лише надійних та перевiрених матерiалів та обладнання
-            Додатковi послуги та сервiси, гарантійне обслуговування
-            Виготовлення власної продукції
-            Вигідні та зручні для Вас умови cпiвпpaцi
-            20 рiчний досвід успішної роботи та безлiч кейсiв!"
+        <div className="about__wrap">
+          <div className="about__info">
+            <About__text  
+            about__text__1='здійснює роботу iз кабельними системами будь-якої складностi, оздоблює серверні, 
+            проектує локальної мережі, надає доступ до мережі Інтернет.
+            Здійснюємо широкий спектр виконувальних робiт: системи Wireless, ВОЛ3, СКУД, IP-вiдеоспостереження, 
+            супутникове обладнання, автоматизація, 
+            сонячне електроживлення, електромонтаж, система "розумний будинок".
+            В наявності власний штат досвідченних iнженерiв, висококвалiфiкованих монтажникiв та колл-центр, 
+            який працює для Вас без вихідних'
+            about__text__2="Використання лише надійних та перевiрених матерiалів та обладнання, 
+            додатковi послуги та сервiси, гарантійне обслуговування,
+            виготовлення власної продукції, вигідні та зручні умови cпiвпpaцi."
             />          
           </div>
         </div>
@@ -30,22 +31,26 @@ class About_info extends Component {
   }
 }
 
-const History__title = (props) => {
+const About__title = (props) => {
   return (
-     <h2 className="history__title">
-        { props.history__title }     
-    </h2>
+     <span className="about__title">
+        { props.about__title }     
+    </span>
   )
 }
 
-const History__text = (props) => {
+const About__text = (props) => {
   return (
     <div>
-      <p className="history__text">
-          { props.history__text__1 }     
+      <p className="about__text">
+        <span className="letter"> 
+          Д
+        </span>
+        <About__title about__title='омашні системи'/>
+          { props.about__text__1 }     
       </p>
-      <p className="history__text">
-          { props.history__text__2 }     
+      <p className="about__text">
+          { props.about__text__2 }     
       </p>
     </div>  
   )

@@ -1,15 +1,18 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Домашні системи",
+  "name": "Домашні системи",
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "sizes": "64x64",
+      "type": "image/ico"
     }
   ],
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "description": "Офіційний веб-сайт ТОВ 'ДОМАШНІ СИСТЕМИ'",
+  "lang": "ua-UA",
+  "version": "1.0"
 }

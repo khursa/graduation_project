@@ -44,7 +44,7 @@ class Production extends Component {
     <button 
       className="menu-close" 
       aria-label="close menu"
-      onClick={this.calcClose}      
+      onClick={this.calcClose.bind(this)}      
       >
         ✕
     </button>
@@ -53,7 +53,8 @@ class Production extends Component {
     <button 
       className="menu-open" 
       aria-label="open menu"
-      onClick={this.calcOpen}
+      onClick={this.calcOpen.bind(this)}
+
       >
         ☰
     </button>

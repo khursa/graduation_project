@@ -7,6 +7,7 @@ import '../../menu.js';
 // import '../../smooth_scroll.js';
 import '../../index.css';
 import './style.css';
+import './media.css';
 
 class Header extends Component {
   render() {

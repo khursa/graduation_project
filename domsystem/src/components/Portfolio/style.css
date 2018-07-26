@@ -16,7 +16,6 @@ font-style: normal;
     background: url('../../assets/img/portfolio/bg.jpg');
 }
 
-
 #projects .project {
     clear: both;
     overflow: hidden;
@@ -152,4 +151,29 @@ font-style: normal;
   .portfolio_slide {
     width: 100%;
     height: auto;
+  }
+
+  .blog_anchor {
+    position: absolute;
+  }
+
+  #blog_article_1 {
+    top: 1800px;
+    z-index: 99999;
+  }
+
+  #blog_article_2 {
+    top: 700px;
+  }
+
+  #blog_article_3 {
+    top: 700px;
+  }
+
+  #blog_article_4 {
+    top: 700px;
+  }
+
+  #blog_article_5 {
+    top: 740px;
   }

@@ -11,7 +11,7 @@ class Blog_categories_communication extends Component {
         <div className="card__container">
           <h2 className="card__header">Мережеві технології</h2>
           <p className="card__count">2 статті</p>
-          <span className="card__more">Переглянути</span>
+          <a className="card__more">Переглянути</a>
         </div>
       </div>
     </div>

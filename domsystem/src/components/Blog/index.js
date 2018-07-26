@@ -107,6 +107,19 @@ let preview = (() => {
 
 class Blog extends Component {
 
+  // constructor(props) {
+  //   super(props);
+  //   this.state = {
+  //   };
+  // };
+
+  // updateData = (value) => {
+  //   this.setState({ 
+  //     text: value,
+  //     outputText: value
+  //   });
+  // };
+
 componentDidMount() {
   tabs.init();
   preview.init();
@@ -119,6 +132,8 @@ componentDidMount() {
           <Blog_figure />
           <div>
             <Blog_header />
+            {/* <Blog_articles updateData={ this.updateData.bind(this)} />
+            <Blog_categories value={ this.state.outputText } /> */}
             <Blog_articles />
             <Blog_categories />
           </div>

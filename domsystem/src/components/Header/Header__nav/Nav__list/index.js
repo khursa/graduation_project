@@ -3,6 +3,7 @@ import '../../../../smooth_scroll.js';
 import '../../../../menu.js';
 import minilogo from '../../../../assets/img/header/minilogo.png';
 import './style.css';
+import './media.css';
 
 class Nav__list extends Component {
   render() {

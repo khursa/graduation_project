@@ -7,10 +7,15 @@ import './style.css';
 
 class Blog_categories extends Component {
 
+  // textOutput() {
+  //   return { __html: this.props.value };
+  // }
+
   render() {
     return (
       <div className="tab catbox">
         <div className="cards" id="flexcat">
+        {/* <div InnerHTML={ this.textOutput() }> </div> */}
           <div className="cat_row1">
             <Blog_categories_communication />
             <Blog_categories_security />
