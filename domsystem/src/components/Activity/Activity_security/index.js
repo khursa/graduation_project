@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-import Electro__info from './Electro__info';
-import Electro__img from './Electro__img';
+import Security__info from './Security__info';
+import Security__img from './Security__img';
 import './style.css'
 
-class Activity_electro extends Component {
+class Activity_security extends Component {
   render() {
     return (
-      <div className="electro">
-        <Electro__info />
-        <Electro__img />
+      <div className="security">
+        <Security__info />
+        <Security__img />
       </div>
     );
   }
 }
 
-export default Activity_electro;
+export default Activity_security;

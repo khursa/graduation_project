@@ -8,13 +8,13 @@
   font-style: normal;
   }
   
-  .electro__info {
+  .security__info {
     position: relative;
     text-align: right;
     padding: 0 5%;
 }
 
-.electro__title {
+.security__title {
     margin-top: 150px;
     color: #f4f5f9;
     font-family: "Elsa", sans-serif;
@@ -26,7 +26,7 @@
     padding-right: 0;
 }
 
-.electro__subtitle {
+.security__subtitle {
     color: #ccccccc4;
     font-family: "Elsa", sans-serif;
     font-size: 18px;
@@ -35,9 +35,9 @@
     text-transform: uppercase;
 }
 
-.electro__text--1, 
-.electro__text--2, 
-.electro__text--3 {
+.security__text--1, 
+.security__text--2, 
+.security__text--3 {
     max-width: 560px;
     color: #999999;
     font-family: "Elsa", sans-serif;
@@ -46,6 +46,6 @@
     line-height: 29px;
 }
 
-.electro__text--3 {
+.security__text--3 {
     padding-bottom: 140px;
 }

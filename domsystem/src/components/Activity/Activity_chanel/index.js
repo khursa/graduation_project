@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-import Electro__info from './Electro__info';
-import Electro__img from './Electro__img';
+import Activity__info from './Activity__info';
+import Activity__img from './Activity__img';
 import './style.css'
 
-class Activity_electro extends Component {
+class Activity_chanel extends Component {
   render() {
     return (
       <div className="electro">
-        <Electro__info />
-        <Electro__img />
+        <Activity__info />
+        <Activity__img />
       </div>
     );
   }
 }
 
-export default Activity_electro;
+export default Activity_chanel;

@@ -1,7 +1,7 @@
-.automation_img {
+.security_img {
     width: 50%;
-    background: url(automation.jpg) 70% 0% no-repeat;
+    background: url(security.jpg) 50% 0% no-repeat;
     background-size: cover;
     border: 1px solid rgba(255, 255, 255, .25);
-    height: 500px;
+    height: 750px;
 }

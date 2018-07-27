@@ -4,7 +4,7 @@ import './style.css'
 class Powersuply__info extends Component {
   render() {
     return (
-      <div className="Powersuply__info">
+      <div className="powersuply__info">
         <Powersuply__title powersuply__title="БЕЗПЕРЕБІЙНЕ ЕЛЕКТРОЖИВЛЕННЯ"/>
         <Powersuply__subtitle__web  subtitle__web ="Аудит"/>
         <Powersuply__text1 powersuply__text__1="Текст про аудит електричних мереж. Текст про проектування електричних мереж."/>
@@ -21,7 +21,7 @@ class Powersuply__info extends Component {
 
 const Powersuply__title = (props) => {
   return (
-     <h2 className="Powersuply__title">
+     <h2 className="powersuply__title">
         { props.powersuply__title }     
     </h2>
   )
@@ -30,7 +30,7 @@ const Powersuply__title = (props) => {
 const Powersuply__subtitle__web = (props) => {
   return (
     <div>
-      <p className="Powersuply__subtitle">
+      <p className="powersuply__subtitle">
           { props.subtitle__web }     
       </p>
     </div>  
@@ -40,7 +40,7 @@ const Powersuply__subtitle__web = (props) => {
 const Powersuply__subtitle__print = (props) => {
   return (
     <div>
-      <p className="Powersuply__subtitle">
+      <p className="powersuply__subtitle">
           { props.subtitle__print }     
       </p>
     </div>  
@@ -50,7 +50,7 @@ const Powersuply__subtitle__print = (props) => {
 const Powersuply__subtitle__photo = (props) => {
   return (
     <div>
-      <p className="Powersuply__subtitle">
+      <p className="powersuply__subtitle">
           { props.subtitle__photo }     
       </p>
     </div>  
@@ -59,7 +59,7 @@ const Powersuply__subtitle__photo = (props) => {
 
 const Powersuply__text1 = (props) => {
   return (
-     <p className="Powersuply__text--1">
+     <p className="powersuply__text--1">
         { props.powersuply__text__1 }     
     </p>
   )
@@ -67,7 +67,7 @@ const Powersuply__text1 = (props) => {
 
 const Powersuply__text2 = (props) => {
   return (
-     <p className="Powersuply__text--2">
+     <p className="powersuply__text--2">
         { props.powersuply__text__2 }     
     </p>
   )
@@ -75,7 +75,7 @@ const Powersuply__text2 = (props) => {
 
 const Powersuply__text3 = (props) => {
   return (
-     <p className="Powersuply__text--3">
+     <p className="powersuply__text--3">
         { props.powersuply__text__3 }     
     </p>
   )

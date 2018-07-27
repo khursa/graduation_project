@@ -1,7 +1,6 @@
-.automation_img {
+.chanel_img {
     width: 50%;
-    background: url(automation.jpg) 70% 0% no-repeat;
+    background: url(./chanel.jpg) 70% 0% no-repeat;
     background-size: cover;
     border: 1px solid rgba(255, 255, 255, .25);
-    height: 500px;
 }

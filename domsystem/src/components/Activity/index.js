@@ -24,9 +24,9 @@ class Activity extends Component {
         <Activity_cable />
         <Activity_chanel />
         <Activity_automation />
-        <Activity_security />
-        <Activity_solar />
         <Activity_powersuply />
+        <Activity_solar />
+        <Activity_security />
       </section>
     );
   }
