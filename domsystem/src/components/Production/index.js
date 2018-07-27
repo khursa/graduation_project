@@ -35,7 +35,33 @@ class Production extends Component {
     <br />
     <br />
     <br />
-    <h3>Калькулятор</h3>
+
+      <div className="form_container">
+        <h3  className="form_title--prod">Оберіть необхідну комплектацію</h3>
+        <div className="items">
+          <input id="item1" type="checkbox" checked />
+          <label for="item1">Виготовлення щоглової споруди</label>
+
+          <input id="item2" type="checkbox" />
+          <label for="item2">Установчий блок під мачту</label>
+
+          <input id="item3" type="checkbox" />
+          <label for="item3">Установчий блок під розтяжки</label>
+
+          <input id="item4" type="checkbox" />
+          <label for="item4">Момплект метизів</label>
+
+          <input id="item5" type="checkbox" />
+          <label for="item5">Транспортування споруди на монтажний майданчик</label>
+
+          <input id="item6" type="checkbox" />
+          <label for="item6">Монтаж щоглової споруди</label>
+
+          <h4 className="done" aria-hidden="true">Замовлено</h4>
+          <h4 className="undone" aria-hidden="true">Можливо замовити додатково</h4>
+        </div>
+      </div>
+
     <form>
       <fieldset>
         <input type="text" />

@@ -15,15 +15,14 @@
 }
 
 .activity__wrap {
-    top: 200px;
     bottom: 200px;
     display: block;
     margin: 0;
     width: 100vw;
+    margin-top: -150px;
 }
 
 .activity__info {
-    padding-top: 50px;
     height: 350px;
     background: rgba(0, 0, 0, .75);
     font-size: 24px;
