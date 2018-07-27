@@ -1,7 +1,6 @@
 .security {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(32, 32, 32, .75);
-    /* background-color: rgba(114, 134, 140, 0.75); */
     border-bottom: 1px solid rgba(255, 255, 255, .25);
+    background: rgba(0, 0, 0, .75);
 }

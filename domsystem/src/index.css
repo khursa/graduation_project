@@ -32,7 +32,8 @@ body {
 }
 
 .parallax-production {
-  background-image: url(./assets/img/production/bg.jpg);
+  background-image: url(./assets/img/production/bg.gif);
+  background-position: 100% 50%;
 }
 
 .parallax-portfolio {

@@ -20,9 +20,9 @@ class Activity extends Component {
         className="activity parallax parallax-activity section"
       >
         <Activity_title />
-        <Activity_electro />
-        <Activity_cable />
         <Activity_chanel />
+        <Activity_cable />
+        <Activity_electro />
         <Activity_automation />
         <Activity_powersuply />
         <Activity_solar />

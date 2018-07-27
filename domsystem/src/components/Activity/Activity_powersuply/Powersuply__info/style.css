@@ -22,13 +22,13 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 3.6px;
-    border-right: 6px solid #ccc;
+    border-right: 6px solid #ddd;
     padding-right: 50px;
     border-radius: 3px;
 }
 
 .powersuply__subtitle {
-    color: #ccccccc4;
+    color: #ddd;
     font-family: "Elsa", sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -40,7 +40,7 @@
 .powersuply__text--2, 
 .powersuply__text--3 {
     max-width: 560px;
-    color: #999999;
+    color: #ddd;
     font-family: "Elsa", sans-serif;
     font-size: 16px;
     font-weight: 400;

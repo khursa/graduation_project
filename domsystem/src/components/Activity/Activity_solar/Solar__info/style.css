@@ -10,12 +10,12 @@
   
   .solar__info {
     position: relative;
-    text-align: right;
+    text-align: left;
     padding: 0 5%;
 }
 
 .solar__title {
-    margin-top: 10px;
+    margin-top: 80px;
     color: #f4f5f9;
     font-family: "Elsa", sans-serif;
     font-size: 36px;
@@ -23,11 +23,12 @@
     text-transform: uppercase;
     letter-spacing: 3.6px;
     border-left: 6px solid #fff;
-    padding-left: 20px;
+    border-radius: 3px;
+    padding-left: 50px;
 }
 
 .solar__subtitle {
-    color: #ccccccc4;
+    color: #ddd;
     font-family: "Elsa", sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -39,9 +40,9 @@
 .solar__text--2, 
 .solar__text--3 {
     max-width: 560px;
-    color: #999999;
+    color: #ddd;
     font-family: "Elsa", sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 29px;
 }

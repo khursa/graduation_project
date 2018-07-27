@@ -4,7 +4,7 @@ import './style.css'
 class Solar__info extends Component {
   render() {
     return (
-      <div className="Solar__info">
+      <div className="solar__info">
         <Solar__title solar__title="СОНЯЧНА ЕЛЕКТРОЕНЕРГІЯ"/>
         <Solar__subtitle__web  subtitle__web ="СОНЯЧНІ ЕЛЕКТРОСТАНЦІЇ"/>
         <Solar__text1 solar__text__1="Підбір оптимальної комплектації обладнання, монтаж наземних та дахових сонячних електростанцій"/>
