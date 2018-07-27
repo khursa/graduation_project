@@ -4,7 +4,7 @@
     margin: 0 auto;
     max-width: 1366px;
     background-color: #f4f5f9;
-    height: 100vh;
+    height: 120vh;
     scroll-behavior: smooth;
     z-index: 1;
 }

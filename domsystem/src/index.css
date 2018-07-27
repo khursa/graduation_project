@@ -16,9 +16,6 @@ body {
 }
 
 .parallax {
-	/* max-width: 1480px;
-  min-width: 980px;
-  margin: 0 auto; */
   background-attachment: fixed;
   background-size: cover;
   background-position: 50% 50%;
@@ -54,7 +51,7 @@ body {
 
 .container {
   overflow: hidden;
-	max-width: 1480px;
+	max-width: 1366px;
   min-width: 980px;
   margin: 0 auto;
 }

@@ -16,13 +16,15 @@
 
 .nav__list::after {
 	position: fixed;
+	margin: 0 auto;
 	top: -15px;
-	left: -50%;
+	left: 0;
 	content: '';
-	width: 2000px;
+	width: 100vw;
 	height: 120px;
 	background-color: rgba(0, 0, 0, .75);
 	z-index: 25;
+	overflow: hidden;
 }
 
 .nav__list li {

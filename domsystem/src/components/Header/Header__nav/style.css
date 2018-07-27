@@ -1,9 +1,10 @@
 .header__nav {
 	position: absolute;
+	margin: 0 auto;
 	top: 0;
 	padding-left: 20px;
 	text-align: right;
-	display: inline-block;
+	display: block;
 	vertical-align: middle;
 	z-index: -2;
 }
