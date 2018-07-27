@@ -10,5 +10,7 @@ Start:
 
 - 'cd domsystem';
 
+- 'npm n install';
 
-- `npm start`;
+
+- `npm start`.
